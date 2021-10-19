@@ -1,0 +1,14 @@
+@media (max-width: 991px) {
+    
+    #title{
+        text-align: center;
+    }
+
+    .iphone-img{
+        position: static;
+        transform: rotate(0);
+        margin-top: 40px;
+    }
+
+    
+}

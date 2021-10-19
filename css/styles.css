@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@500&display=swap');
+
+
+/* Global variable */
+
+:root{
+    --font: 'ubuntu', sans-serif;
+    --font2: 'Montserrat', sans-serif; 
+}
+
+
+/* Direct html tag selector */
+
+body{
+    font-family: var(--font2);
+    font-weight: bold;
+}
+
+
+h1, h2, h3{
+    font-family: var(--font);
+    
+}
+
+
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h3{
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+    font-size: 2rem;
+    
+}
+
+
+.nav-item{
+    font-size: 1.2rem;
+    padding: 0 20px;
+    
+}
+
+
+/* Title section  */
+
+#title{
+    background-color: rgb(90, 185, 230);
+    
+}
+
+.section-head{
+font-family: var(--font);
+font-size: 3rem;
+line-height: 1.5;
+color: white;
+margin-bottom: 30px;
+}
+
+
+.container-fluid{
+    padding: 3% 10%;
+}
+
+
+.title-row{
+    padding: 5% 0 2%;
+}
+
+
+.play-btn{
+    margin-left: 20px;
+}
+
+
+.iphone-img{
+    width: 20%;
+    transform: rotate(20deg);
+    position: absolute;
+    
+}
+
+
+/* Features section */
+
+#features{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.features-row{
+    padding: 7% 12%;
+}
+
+
+.features-col{
+    text-align: center;
+    padding: 0 34px;
+}
+
+
+.fas{
+    font-size: 3rem;
+    color: rgb(89, 167, 231);
+    margin-bottom: 10px;
+    margin-top: 33px;
+}
+
+
+.fas:hover{
+    color: rgb(90, 185, 230);
+}
+
+
+/* Testimonial section */
+
+
+.inner-testimonial{
+    text-align: center;
+    padding: 5% 15% 5%;
+    background-color: rgb(90, 185, 230);
+    color: white;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin-top: 4%;
+}
+
+
+/* Press */
+
+#press{
+    background-color: rgb(90, 185, 230);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 12%;
+    margin: 3% 4%;
+}
+
+/* Pricing section*/
+
+#pricing{
+    text-align: center;
+    padding: 7%;
+}
+
+.pricing-row{
+    margin: 5%px 0;
+   
+}
+
+.pricing-col{
+    border: none;
+    margin-top: 50px;
+}
+
+.pricing-first{
+    margin-top: 43px;
+}
+
+
+.pricing-sec{
+    margin-top: 41px;
+}
+
+/* Call to action section */
+
+#cta{
+    background-color: rgb(90, 185, 230);
+}
+
+.action-sec{
+    text-align: center;
+    padding: 7% 0;
+    color: white;
+}
+
+.action-btn{
+    margin-top: 3%;
+    margin-right: 20px;
+}
+
+
+/* Footer section */
+
+#footer{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.footer-img{
+    padding: 0 7px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-link{
+    color: black;
+}
